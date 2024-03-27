@@ -1,0 +1,64 @@
+a {
+
+    color: white;
+    text-decoration: none;
+    
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background: #008080;
+}
+.contenedor {
+display: flex;
+align-items: center;
+}
+
+
+.texto-derecha {
+    
+    text-align: right;
+    margin-left: 40px;
+}
+
+.justificado {
+    justify-content: center;
+}
+.ulStyle{
+    
+    list-style-type: none;
+    background-color:#283747;
+    margin: 0%;
+    padding: 0%;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    top: 0;
+}
+
+
+li a{
+    filter: grayscale(100%);
+    display: block;
+    border: #008080;
+    border-radius: 10px;
+    padding: 12px;
+    margin: .5px;
+    text-decoration: none;
+    border-bottom-style: solid;
+
+}
+li a:hover{
+    filter: grayscale(0%);
+}
+.texto-imagen{
+    background-image: url(FondoTitulo.jpg);
+    color: transparent;
+    background-clip: text;
+}
+
+img{
+    padding-bottom: 10px;
+}
